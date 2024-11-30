@@ -6,6 +6,7 @@ api = server.api
 book_model = api.model('Book', {
     'id': fields.Integer(required=True, description='Book ID'),  # Corrigido o typo aqui
     'title': fields.String(required=True, description='Book title')
+    
 })
 
 books_db = [
